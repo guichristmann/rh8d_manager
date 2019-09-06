@@ -1,0 +1,15 @@
+port:
+    port: "/dev/ttyUSB0"
+    baudrate: 1000000
+    protocol: 1         # Version of the Dynamixel Protocol
+
+IDs:
+    # Right Hand
+    r_wrist_rotation: 9
+    r_wrist_adduction: 11
+    r_wrist_flexion: 13
+    r_thumb_adduction: 103
+    r_thumb_flexion: 105
+    r_index_flexion: 107
+    r_middle_flexion: 109
+    r_ring_pinky_flexion: 111
